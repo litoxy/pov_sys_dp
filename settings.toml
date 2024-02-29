@@ -3,17 +3,17 @@ DEBUG = false
 FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
 FLASK_ADMIN_SWATCH = 'cerulean'
 SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
-TITLE = "project_name"
+TITLE = "pov_sys_dp"
 SECRET_KEY = "Pl3453Ch4ng3"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
     "flask_bootstrap:Bootstrap",
-    "project_name.ext.database:init_app",
-    "project_name.ext.auth:init_app",
-    "project_name.ext.admin:init_app",
-    "project_name.ext.commands:init_app",
-    "project_name.ext.webui:init_app",
-    "project_name.ext.restapi:init_app",
+    "pov_sys_dp.ext.database:init_app",
+    "pov_sys_dp.ext.auth:init_app",
+    "pov_sys_dp.ext.admin:init_app",
+    "pov_sys_dp.ext.commands:init_app",
+    "pov_sys_dp.ext.webui:init_app",
+    "pov_sys_dp.ext.restapi:init_app",
 ]
 
 [development]
